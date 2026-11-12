@@ -1,0 +1,6 @@
+# Injects ~/.dsh/agent-rules and <cwd>/.dsh/agent-rules as a leading user
+# message on every agent step: main agents read main.md, sub agents read sub.md.
+- insert:
+    - id: agent-rules
+      name: '@orange-v-soda/dsh-main-sub-agent'
+      config: {}
