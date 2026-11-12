@@ -6,11 +6,14 @@
   "exports": {
     ".": "./lib/index.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
     "./package.json": "./package.json"
   },
   "files": [
     "lib/index.js",
     "cordis.patch.yml",
+    "icon.png",
+    "locale/*.json",
     "docs",
     "README.md"
   ],
@@ -33,6 +36,7 @@
     "type": "git",
     "url": "https://github.com/orange-v-soda/dsh-main-sub-agent.git"
   },
+  "icon": "./icon.png",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
